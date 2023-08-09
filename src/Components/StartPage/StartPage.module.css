@@ -1,0 +1,36 @@
+#container {
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0;
+    gap:20px;
+    
+}
+
+ 
+#textandbtn {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    
+} 
+
+#text {
+    font-size: 125px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#startbtn {
+    padding: 7px 25px;
+    font-size: large;
+    background-color: black;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 130px;
+    right: 10px;
+}
