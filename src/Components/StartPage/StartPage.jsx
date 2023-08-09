@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./StartPage.module.css"
 
-function StartPage() {
+function StartPage({handleClick}) {
   return (
 
     <div id={styles.container}>
@@ -10,7 +10,7 @@ function StartPage() {
       </div>
       <div id={styles.textandbtn}>
         <h1 id={styles.text}>Dice game</h1>
-        <button id={styles.startbtn}>Start game</button>
+        <button id={styles.startbtn} onClick={handleClick}>Play now</button>
       </div>
     </div>
 
